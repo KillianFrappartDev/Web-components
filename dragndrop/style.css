@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    width: 40%;
+    height: 100vh;
+    background-color: black;
+}
+
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.pink {
+    background-color: pink;
+}
+
+
+.item {
+    display: block;
+    height: 100px;
+    margin: 1rem 0;
+    background-color: yellow;
+    border: 2px solid black;
+}

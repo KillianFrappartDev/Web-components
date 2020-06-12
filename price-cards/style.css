@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 5rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  margin: 0 2rem;
+  background-color: #393e46;
+  padding: 3rem;
+  border: solid 2px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.card-main {
+  width: 250px;
+  height: 350px;
+}
+
+.card__title {
+  font-size: 2.5rem;
+}
+
+.card__feature {
+  text-align: start;
+  font-size: 1.5rem;
+}
+
+.card__price {
+}
+
+.card__button {
+  width: 60%;
+  height: 50px;
+  background-color: black;
+  color: #FFF;
+  border: none;
+  font-size: 1.2rem;
+
+}
+
+.card__button:hover {
+  color: black;
+  background-color: #FFF;
+}
+
+.main__title {
+  font-size: 3rem;
+}
+
+.main__list {
+  font-size: 2rem;
+}

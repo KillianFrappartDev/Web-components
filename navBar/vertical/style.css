@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.navbar-1 {
+    position: fixed;
+    left: 0px;
+    display: flex;
+    padding: 0 1rem;
+    height: 100vh;
+    width: 4rem;
+    background-color: black;
+    color: #FFF;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.navbar-1__brand {
+    font-size: 1.5rem;
+}
+
+.navbar-1__links {
+    margin-top: 3rem;
+}
+
+.navbar-1__link {
+    display: block;
+    padding: 20px;
+    border-top: solid 1px grey;
+    border-bottom: solid 1px grey;
+
+}
+
+.navbar-1__link:hover {
+    color: red!important;
+}
